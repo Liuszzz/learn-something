@@ -24,13 +24,14 @@
 1. modified  //已修改
 2. staged    //已暂存
 3. committed //已提交
-<!--获取的Git仓库中的所有文件都是committed状态。
+
+获取的Git仓库中的所有文件都是committed状态。
 如果你在本地修改了文件a，a的状态就变成modified的；
 如果使用git add a，a的状态变成staged；
 如果使用git commit，a的状态就变成commited。
 当然还有一种文件状态，未跟踪状态（unversioned/untracked）。
 通过使用git add可以把未跟踪状态变更为staged；
-通过git rm可以将staged或者committed状态变为未跟踪状态。-->
+通过git rm可以将staged或者committed状态变为未跟踪状态。
 
 ## 标签tag
 1. git tag           //显示当前库中的标签
